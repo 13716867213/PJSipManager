@@ -1,0 +1,31 @@
+//
+//  PJSIp.pch
+//  PJSipManager
+//
+//  Created by 单连超 on 16/4/6.
+//  Copyright © 2016年 单连超. All rights reserved.
+//
+
+#ifndef PJSIp_pch
+#define PJSIp_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+
+//字符串是否为空
+#define IsStrEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref)isEqualToString:@""]))
+
+
+#define autoSizeScaleX [[[NSUserDefaults standardUserDefaults] objectForKey:@"autoSizeScaleX"] floatValue]
+
+#define autoSizeScaleY [[[NSUserDefaults standardUserDefaults] objectForKey:@"autoSizeScaleY"] floatValue]
+
+#define RectMake(x,y,w,h) CGRectMake(x*autoSizeScaleX, y*autoSizeScaleY, w*autoSizeScaleX, h*autoSizeScaleY)
+
+
+
+#define callStateChange @"callStateChange" //通话状态改变
+
+#endif /* PJSIp_pch */

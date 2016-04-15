@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590562E21CB649F400C2F3C7 /* CallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 590562E01CB649F400C2F3C7 /* CallViewController.m */; };
+		590562E31CB649F400C2F3C7 /* CallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 590562E11CB649F400C2F3C7 /* CallViewController.xib */; };
+		592B12481CB5EB7B00848251 /* Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 592B12471CB5EB7B00848251 /* Keyboard.m */; };
+		592B124C1CB5EC8000848251 /* CallOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 592B124A1CB5EC8000848251 /* CallOutViewController.m */; };
+		592B124D1CB5EC8000848251 /* CallOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 592B124B1CB5EC8000848251 /* CallOutViewController.xib */; };
+		592B12511CB5F94C00848251 /* IncommingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 592B124F1CB5F94C00848251 /* IncommingViewController.m */; };
+		592B12521CB5F94C00848251 /* IncommingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 592B12501CB5F94C00848251 /* IncommingViewController.xib */; };
+		592B12561CB600F600848251 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 592B12541CB600F600848251 /* BaseViewController.m */; };
+		592B12571CB600F600848251 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 592B12551CB600F600848251 /* BaseViewController.xib */; };
+		5996825B1CB4ACC000B75157 /* PJSipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5996825A1CB4ACC000B75157 /* PJSipManager.m */; };
+		59BA6E771CB499E600F8CAF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BA6E761CB499E600F8CAF0 /* main.m */; };
+		59BA6E7A1CB499E600F8CAF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BA6E791CB499E600F8CAF0 /* AppDelegate.m */; };
+		59BA6E851CB499E600F8CAF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59BA6E841CB499E600F8CAF0 /* Assets.xcassets */; };
+		59BA6E931CB499E600F8CAF0 /* PJSipManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BA6E921CB499E600F8CAF0 /* PJSipManagerTests.m */; };
+		59BA6E9E1CB499E600F8CAF0 /* PJSipManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BA6E9D1CB499E600F8CAF0 /* PJSipManagerUITests.m */; };
+		59BA6EB31CB4A7BF00F8CAF0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BA6EB11CB4A7BF00F8CAF0 /* LoginViewController.m */; };
+		59BA6EB41CB4A7BF00F8CAF0 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59BA6EB21CB4A7BF00F8CAF0 /* LoginViewController.xib */; };
+		A53B3C35C9BF3C22357C1638 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA839037760851BA1F563D6F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59BA6E8F1CB499E600F8CAF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59BA6E6A1CB499E600F8CAF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BA6E711CB499E600F8CAF0;
+			remoteInfo = PJSipManager;
+		};
+		59BA6E9A1CB499E600F8CAF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59BA6E6A1CB499E600F8CAF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BA6E711CB499E600F8CAF0;
+			remoteInfo = PJSipManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3603C9ED832CF927F57B559D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		590562DF1CB649F400C2F3C7 /* CallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallViewController.h; sourceTree = "<group>"; };
+		590562E01CB649F400C2F3C7 /* CallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallViewController.m; sourceTree = "<group>"; };
+		590562E11CB649F400C2F3C7 /* CallViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallViewController.xib; sourceTree = "<group>"; };
+		592B12461CB5EB7B00848251 /* Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keyboard.h; sourceTree = "<group>"; };
+		592B12471CB5EB7B00848251 /* Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keyboard.m; sourceTree = "<group>"; };
+		592B12491CB5EC8000848251 /* CallOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallOutViewController.h; sourceTree = "<group>"; };
+		592B124A1CB5EC8000848251 /* CallOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallOutViewController.m; sourceTree = "<group>"; };
+		592B124B1CB5EC8000848251 /* CallOutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CallOutViewController.xib; sourceTree = "<group>"; };
+		592B124E1CB5F94C00848251 /* IncommingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncommingViewController.h; sourceTree = "<group>"; };
+		592B124F1CB5F94C00848251 /* IncommingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncommingViewController.m; sourceTree = "<group>"; };
+		592B12501CB5F94C00848251 /* IncommingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IncommingViewController.xib; sourceTree = "<group>"; };
+		592B12531CB600F600848251 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		592B12541CB600F600848251 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		592B12551CB600F600848251 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
+		599682591CB4ACC000B75157 /* PJSipManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJSipManager.h; sourceTree = "<group>"; };
+		5996825A1CB4ACC000B75157 /* PJSipManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJSipManager.m; sourceTree = "<group>"; };
+		5996825C1CB4BB5E00B75157 /* PJSIp.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJSIp.pch; sourceTree = "<group>"; };
+		59BA6E721CB499E600F8CAF0 /* PJSipManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJSipManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BA6E761CB499E600F8CAF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		59BA6E781CB499E600F8CAF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		59BA6E791CB499E600F8CAF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		59BA6E841CB499E600F8CAF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59BA6E891CB499E600F8CAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BA6E8E1CB499E600F8CAF0 /* PJSipManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJSipManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BA6E921CB499E600F8CAF0 /* PJSipManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJSipManagerTests.m; sourceTree = "<group>"; };
+		59BA6E941CB499E600F8CAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BA6E991CB499E600F8CAF0 /* PJSipManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJSipManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BA6E9D1CB499E600F8CAF0 /* PJSipManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJSipManagerUITests.m; sourceTree = "<group>"; };
+		59BA6E9F1CB499E600F8CAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BA6EB01CB4A7BF00F8CAF0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		59BA6EB11CB4A7BF00F8CAF0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		59BA6EB21CB4A7BF00F8CAF0 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		5DF4CD852061BF96FF26EA99 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AA839037760851BA1F563D6F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59BA6E6F1CB499E600F8CAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53B3C35C9BF3C22357C1638 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BA6E8B1CB499E600F8CAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BA6E961CB499E600F8CAF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		599682551CB4AC6600B75157 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				592B12461CB5EB7B00848251 /* Keyboard.h */,
+				592B12471CB5EB7B00848251 /* Keyboard.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		599682571CB4AC8100B75157 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				599682591CB4ACC000B75157 /* PJSipManager.h */,
+				5996825A1CB4ACC000B75157 /* PJSipManager.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		599682581CB4AC8400B75157 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				59BA6EB01CB4A7BF00F8CAF0 /* LoginViewController.h */,
+				59BA6EB11CB4A7BF00F8CAF0 /* LoginViewController.m */,
+				59BA6EB21CB4A7BF00F8CAF0 /* LoginViewController.xib */,
+				590562DF1CB649F400C2F3C7 /* CallViewController.h */,
+				590562E01CB649F400C2F3C7 /* CallViewController.m */,
+				590562E11CB649F400C2F3C7 /* CallViewController.xib */,
+				592B12491CB5EC8000848251 /* CallOutViewController.h */,
+				592B124A1CB5EC8000848251 /* CallOutViewController.m */,
+				592B124B1CB5EC8000848251 /* CallOutViewController.xib */,
+				592B124E1CB5F94C00848251 /* IncommingViewController.h */,
+				592B124F1CB5F94C00848251 /* IncommingViewController.m */,
+				592B12501CB5F94C00848251 /* IncommingViewController.xib */,
+				592B12531CB600F600848251 /* BaseViewController.h */,
+				592B12541CB600F600848251 /* BaseViewController.m */,
+				592B12551CB600F600848251 /* BaseViewController.xib */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		59BA6E691CB499E600F8CAF0 = {
+			isa = PBXGroup;
+			children = (
+				59BA6E741CB499E600F8CAF0 /* PJSipManager */,
+				59BA6E911CB499E600F8CAF0 /* PJSipManagerTests */,
+				59BA6E9C1CB499E600F8CAF0 /* PJSipManagerUITests */,
+				59BA6E731CB499E600F8CAF0 /* Products */,
+				C2167E3D42674791C07B1B05 /* Pods */,
+				91E105D33663CE626EC9656F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		59BA6E731CB499E600F8CAF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59BA6E721CB499E600F8CAF0 /* PJSipManager.app */,
+				59BA6E8E1CB499E600F8CAF0 /* PJSipManagerTests.xctest */,
+				59BA6E991CB499E600F8CAF0 /* PJSipManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59BA6E741CB499E600F8CAF0 /* PJSipManager */ = {
+			isa = PBXGroup;
+			children = (
+				59BA6E781CB499E600F8CAF0 /* AppDelegate.h */,
+				59BA6E791CB499E600F8CAF0 /* AppDelegate.m */,
+				599682581CB4AC8400B75157 /* controller */,
+				599682571CB4AC8100B75157 /* model */,
+				599682551CB4AC6600B75157 /* view */,
+				59BA6E841CB499E600F8CAF0 /* Assets.xcassets */,
+				59BA6E891CB499E600F8CAF0 /* Info.plist */,
+				59BA6E751CB499E600F8CAF0 /* Supporting Files */,
+			);
+			path = PJSipManager;
+			sourceTree = "<group>";
+		};
+		59BA6E751CB499E600F8CAF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59BA6E761CB499E600F8CAF0 /* main.m */,
+				5996825C1CB4BB5E00B75157 /* PJSIp.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59BA6E911CB499E600F8CAF0 /* PJSipManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				59BA6E921CB499E600F8CAF0 /* PJSipManagerTests.m */,
+				59BA6E941CB499E600F8CAF0 /* Info.plist */,
+			);
+			path = PJSipManagerTests;
+			sourceTree = "<group>";
+		};
+		59BA6E9C1CB499E600F8CAF0 /* PJSipManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59BA6E9D1CB499E600F8CAF0 /* PJSipManagerUITests.m */,
+				59BA6E9F1CB499E600F8CAF0 /* Info.plist */,
+			);
+			path = PJSipManagerUITests;
+			sourceTree = "<group>";
+		};
+		91E105D33663CE626EC9656F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA839037760851BA1F563D6F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2167E3D42674791C07B1B05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3603C9ED832CF927F57B559D /* Pods.debug.xcconfig */,
+				5DF4CD852061BF96FF26EA99 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59BA6E711CB499E600F8CAF0 /* PJSipManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BA6EA21CB499E600F8CAF0 /* Build configuration list for PBXNativeTarget "PJSipManager" */;
+			buildPhases = (
+				D6B71262951AAA034065713F /* Check Pods Manifest.lock */,
+				59BA6E6E1CB499E600F8CAF0 /* Sources */,
+				59BA6E6F1CB499E600F8CAF0 /* Frameworks */,
+				59BA6E701CB499E600F8CAF0 /* Resources */,
+				5FC1FDBEF16CAB2A838FBA46 /* Embed Pods Frameworks */,
+				500A6BE44BF463F6A7ABE146 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PJSipManager;
+			productName = PJSipManager;
+			productReference = 59BA6E721CB499E600F8CAF0 /* PJSipManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59BA6E8D1CB499E600F8CAF0 /* PJSipManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BA6EA51CB499E600F8CAF0 /* Build configuration list for PBXNativeTarget "PJSipManagerTests" */;
+			buildPhases = (
+				59BA6E8A1CB499E600F8CAF0 /* Sources */,
+				59BA6E8B1CB499E600F8CAF0 /* Frameworks */,
+				59BA6E8C1CB499E600F8CAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59BA6E901CB499E600F8CAF0 /* PBXTargetDependency */,
+			);
+			name = PJSipManagerTests;
+			productName = PJSipManagerTests;
+			productReference = 59BA6E8E1CB499E600F8CAF0 /* PJSipManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59BA6E981CB499E600F8CAF0 /* PJSipManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BA6EA81CB499E600F8CAF0 /* Build configuration list for PBXNativeTarget "PJSipManagerUITests" */;
+			buildPhases = (
+				59BA6E951CB499E600F8CAF0 /* Sources */,
+				59BA6E961CB499E600F8CAF0 /* Frameworks */,
+				59BA6E971CB499E600F8CAF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59BA6E9B1CB499E600F8CAF0 /* PBXTargetDependency */,
+			);
+			name = PJSipManagerUITests;
+			productName = PJSipManagerUITests;
+			productReference = 59BA6E991CB499E600F8CAF0 /* PJSipManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59BA6E6A1CB499E600F8CAF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "单连超";
+				TargetAttributes = {
+					59BA6E711CB499E600F8CAF0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					59BA6E8D1CB499E600F8CAF0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 59BA6E711CB499E600F8CAF0;
+					};
+					59BA6E981CB499E600F8CAF0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 59BA6E711CB499E600F8CAF0;
+					};
+				};
+			};
+			buildConfigurationList = 59BA6E6D1CB499E600F8CAF0 /* Build configuration list for PBXProject "PJSipManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59BA6E691CB499E600F8CAF0;
+			productRefGroup = 59BA6E731CB499E600F8CAF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59BA6E711CB499E600F8CAF0 /* PJSipManager */,
+				59BA6E8D1CB499E600F8CAF0 /* PJSipManagerTests */,
+				59BA6E981CB499E600F8CAF0 /* PJSipManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59BA6E701CB499E600F8CAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590562E31CB649F400C2F3C7 /* CallViewController.xib in Resources */,
+				59BA6EB41CB4A7BF00F8CAF0 /* LoginViewController.xib in Resources */,
+				592B124D1CB5EC8000848251 /* CallOutViewController.xib in Resources */,
+				592B12571CB600F600848251 /* BaseViewController.xib in Resources */,
+				59BA6E851CB499E600F8CAF0 /* Assets.xcassets in Resources */,
+				592B12521CB5F94C00848251 /* IncommingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BA6E8C1CB499E600F8CAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BA6E971CB499E600F8CAF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		500A6BE44BF463F6A7ABE146 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FC1FDBEF16CAB2A838FBA46 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B71262951AAA034065713F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59BA6E6E1CB499E600F8CAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				592B12561CB600F600848251 /* BaseViewController.m in Sources */,
+				59BA6EB31CB4A7BF00F8CAF0 /* LoginViewController.m in Sources */,
+				592B12481CB5EB7B00848251 /* Keyboard.m in Sources */,
+				590562E21CB649F400C2F3C7 /* CallViewController.m in Sources */,
+				59BA6E7A1CB499E600F8CAF0 /* AppDelegate.m in Sources */,
+				592B12511CB5F94C00848251 /* IncommingViewController.m in Sources */,
+				592B124C1CB5EC8000848251 /* CallOutViewController.m in Sources */,
+				59BA6E771CB499E600F8CAF0 /* main.m in Sources */,
+				5996825B1CB4ACC000B75157 /* PJSipManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BA6E8A1CB499E600F8CAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BA6E931CB499E600F8CAF0 /* PJSipManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BA6E951CB499E600F8CAF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BA6E9E1CB499E600F8CAF0 /* PJSipManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59BA6E901CB499E600F8CAF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59BA6E711CB499E600F8CAF0 /* PJSipManager */;
+			targetProxy = 59BA6E8F1CB499E600F8CAF0 /* PBXContainerItemProxy */;
+		};
+		59BA6E9B1CB499E600F8CAF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59BA6E711CB499E600F8CAF0 /* PJSipManager */;
+			targetProxy = 59BA6E9A1CB499E600F8CAF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59BA6EA01CB499E600F8CAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59BA6EA11CB499E600F8CAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59BA6EA31CB499E600F8CAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3603C9ED832CF927F57B559D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PJSipManager/PJSIp.pch";
+				INFOPLIST_FILE = PJSipManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slc.PJSipManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		59BA6EA41CB499E600F8CAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF4CD852061BF96FF26EA99 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PJSipManager/PJSIp.pch";
+				INFOPLIST_FILE = PJSipManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slc.PJSipManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		59BA6EA61CB499E600F8CAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PJSipManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slc.PJSipManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJSipManager.app/PJSipManager";
+			};
+			name = Debug;
+		};
+		59BA6EA71CB499E600F8CAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PJSipManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slc.PJSipManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PJSipManager.app/PJSipManager";
+			};
+			name = Release;
+		};
+		59BA6EA91CB499E600F8CAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PJSipManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slc.PJSipManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PJSipManager;
+			};
+			name = Debug;
+		};
+		59BA6EAA1CB499E600F8CAF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PJSipManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slc.PJSipManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PJSipManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59BA6E6D1CB499E600F8CAF0 /* Build configuration list for PBXProject "PJSipManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BA6EA01CB499E600F8CAF0 /* Debug */,
+				59BA6EA11CB499E600F8CAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BA6EA21CB499E600F8CAF0 /* Build configuration list for PBXNativeTarget "PJSipManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BA6EA31CB499E600F8CAF0 /* Debug */,
+				59BA6EA41CB499E600F8CAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BA6EA51CB499E600F8CAF0 /* Build configuration list for PBXNativeTarget "PJSipManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BA6EA61CB499E600F8CAF0 /* Debug */,
+				59BA6EA71CB499E600F8CAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BA6EA81CB499E600F8CAF0 /* Build configuration list for PBXNativeTarget "PJSipManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BA6EA91CB499E600F8CAF0 /* Debug */,
+				59BA6EAA1CB499E600F8CAF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59BA6E6A1CB499E600F8CAF0 /* Project object */;
+}
